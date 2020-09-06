@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utensilias</title>
+  <link rel="stylesheet" href="CSS/Style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <li class="LOGO"><a href="#Home">Utensilias</a></li>
+    <nav>
+      <li class="navHome"><a href="#Home">Home</a></li>
+      <li class="navMenu"><a href="#Menu">Menu</a></li>
+      <li class="navRecepies"><a href="#Recepies">Recepies</a></li>
+      <li class="navContact"><a href="#Contact">Contact</a></li>
+      <div class="menuContainer displayNone">
+        <a href="#Home" class="navHome">Home</a>
+        <a href="#Menu" class="navHome">Menu</a>
+        <a href="#Recepies">Recepies</a>
+        <a href="#Contact" class="navHome">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="Home">
+      <div>
+        <span class="title">Restaurante, Utensilias...</span>
+        <span class="subTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, voluptatibus!</span>
+        <div>
+          <a href="#Menu">View Menu</a>
+          <a href="#Recepies">Search Recepies</a>
+          <a href="#Contact">Contact</a>
+
+        </div>
+      </div>
+    </section>
+    <section id="Menu">
+      <span class="title">Menu</span>
+      <div class="cardSlider">
+        <div class="menuCard">
+          <div class="cont">
+            <span>Dosa</span>
+            <img src="./Images/Food1.jpg" alt="">
+          </div>
+        </div>
+        <div class="menuCard">
+          <div class="cont">
+            <span>Ven Pongal</span>
+            <img src="./Images/Food2.jpg" alt="">
+          </div>
+        </div>
+        <div class="menuCard">
+          <div class="cont">
+            <span>Idli Sambar</span>
+            <img src="./Images/Food3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Recepies">
+      <div class="cont2">
+        <input type="text" id="recepieSearch" placeholder="Search for your favourite food">
+        <button id="recepieButton">Search Yout Recepie</button>
+      </div>
+      <div class="SearchedItems">
+        <!-- <div class="recepie">
+          <img src="./Images/Food2.jpg" height="250px" width="250px" alt="">
+          <a href="#"class="title">title</a>
+        </div> -->
+      </div>
+    </section>
+  </main>
+
+  <footer id="Contact">
+    <img src="./Icons/GitHub-Mark-Light-120px-plus.png" height="120px" width="120px" alt="GitHub-Mark">
+    <span> Created by <a href="https://github.com/S-AshutoshDev"> Ashutosh Kumar </a>
+    <br> Date created: 09/04/2020</span>
+  </footer>
+
+
+  <script src="JS/App.js"></script>
+</body>
+
+</html>
