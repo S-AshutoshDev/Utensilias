@@ -200,12 +200,12 @@ main section#Menu div.cardSlider {
 }
 
 main section#Menu div.cardSlider div.menuCard {
-  margin: 20px;
-  padding: 1em;
+  margin: 10px;
+  padding: 10px;
   position: relative;
   background: rgba(0, 0, 0, 0.3);
   width: 27vw;
-  min-width: 400px;
+  min-width: 300px;
   border: 2px solid white;
   border-radius: 15px 5px 2px 2px;
   display: inline-block;
@@ -237,7 +237,7 @@ main section#Menu div.cardSlider div.menuCard div.cont {
 main section#Menu div.cardSlider div.menuCard div.cont span {
   display: block;
   font-size: 1.75em;
-  min-width: 350px;
+  min-width: 270px;
   width: 25vw;
 }
 
@@ -248,9 +248,9 @@ main section#Menu div.cardSlider div.menuCard div.cont span:hover {
 
 main section#Menu div.cardSlider div.menuCard div.cont img {
   display: block;
-  min-height: 350px;
+  min-height: 270px;
   height: 25vw;
-  min-width: 350px;
+  min-width: 270px;
   width: 25vw;
 }
 
@@ -271,8 +271,9 @@ main section#Recepies div.cont2 {
 }
 
 main section#Recepies div.cont2 input {
-  width: 40vw;
-  height: 2em;
+  width: 70vw;
+  margin: 10px 20px;
+  height: 1.65em;
   font-size: 1.25em;
   border: none;
   padding: 5px 10px;
@@ -280,8 +281,12 @@ main section#Recepies div.cont2 input {
 
 main section#Recepies div.cont2 button {
   height: 2em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   font-size: 1em;
   border: none;
+  margin: 10px 20px;
   padding: 5px 10px;
   background: white;
 }
@@ -303,9 +308,9 @@ main section#Recepies div.SearchedItems div.recepie {
 
 main section#Recepies div.SearchedItems div.recepie img {
   display: block;
-  min-height: 350px;
+  min-height: 270px;
   height: 25vw;
-  min-width: 350px;
+  min-width: 270px;
   width: 25vw;
 }
 
@@ -315,8 +320,8 @@ main section#Recepies div.SearchedItems div.recepie a {
   border: 2px solid white;
   background: rgba(0, 0, 0, 0.3);
   display: block;
-  font-size: 1.75em;
-  min-width: 350px;
+  font-size: 1.25em;
+  min-width: 270px;
   text-decoration: none;
   width: 25vw;
 }
